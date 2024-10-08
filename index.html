@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<title>Test</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	</head>
+	<body>
+		<header>
+			<h1 class="header">Header</h1>
+		</header>
+		<main>
+			<h3>Body text</h3>
+			<form id="userinfo">
+  				<p>
+    				<label for="username">Enter your name:</label>
+    				<input type="text" id="username" name="username" value="" />
+  				</p>
+  				<p>
+    				<label for="avatar">Select an photo</label>
+    				<input type="file" id="avatar" name="avatar" onchange="previewFile()" required />
+    				<img src="" height="200" alt="Image preview...">
+  				</p>
+  				<input type="submit" value="Submit" />
+			</form>
+			<img>
+		</main>
+		<script type="text/javascript" src="script.js"></script>
+		<footer>Copyright &copy <script type="text/javascript">document.write(new Date().getFullYear());</script> Patrick LIEBERT</footer>
+	</body>
+</html>
