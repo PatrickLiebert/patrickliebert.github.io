@@ -5,7 +5,7 @@ async function sendData() {
   const formData = new FormData(form);
 
   try {
-    const response = await fetch("file:///Users/aedangage/Desktop/Programming/Template/index.html", {
+    const response = await fetch("https://patrickliebert.github.io/", {
       method: "POST",
       // Set the FormData instance as the request body
       body: formData,
